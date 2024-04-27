@@ -21,5 +21,7 @@ function createPassword() {
 }
 function copy() {
   document.execCommand("copy");
-  alert("Password copied successfully");
+  passwordBox.value = "Copied";
+  passwordBox.style.fontWeight = "bold";
+  passwordBox.style.color = "#1B4F72";
 }
